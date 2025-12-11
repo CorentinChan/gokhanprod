@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualisation 3D STL</title>
+  <style>
+    body { margin: 0; }
+    /* Style pour que le canvas occupe toute la fenêtre */
+    #canvas-container {
+      width: 100%;
+      height: 100vh; /* Vue à hauteur d'écran */
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Conteneur pour le canvas -->
+<div id="canvas-container"></div>
+
+<!-- Inclusion de Three.js et du loader STL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/loaders/STLLoader.js"></script>
+
+<script>
+  // Créer la scène
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+  
+  // Créer le rendu WebGL
+  const renderer = new THREE.WebGLRenderer();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  
+  // Sélectionner le conteneur pour insérer le canvas
+  const container = document.getElementById('canvas-container');
+  container.appendChild(renderer.domElement);
+
+  // Ajouter une lumière à la scène
+  const light = new THREE.AmbientLight(0x404040); // Lumière douce
+  scene.add(light);
+  
+  // Ajouter une lumière directionnelle pour mieux éclairer le modèle
+  const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+  directionalLight.position.set(5, 5, 5).normalize();
+  scene.add(directionalLight);
+
+  // Charger un fichier STL
+  const loader = new THREE.STLLoader();
+  loader.load('ton_fichier.stl', function (geometry) {
+    // Créer un matériau et ajouter la géométrie STL
+    const material = new THREE.MeshPhongMaterial({ color: 0x0055ff });
+    const mesh = new THREE.Mesh(geometry, material);
+    scene.add(mesh);
+    
+    // Placer le modèle
+    mesh.rotation.x = -Math.PI / 2;  // Faire pivoter le modèle pour qu'il soit bien orienté
+    mesh.position.set(0, 0, 0);      // Positionner le modèle au centre
+  });
+
+  // Positionner la caméra
+  camera.position.z = 10;
+
+  // Fonction d'animation
+  function animate() {
+    requestAnimationFrame(animate);
+
+    // Rendre la scène
+    renderer.render(scene, camera);
+  }
+
+  animate();
+
+  // Ajuster la taille du canvas lorsque la fenêtre change de taille
+  window.addEventListener('resize', () => {
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+  });
+</script>
+
+</body>
+</html>

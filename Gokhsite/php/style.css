@@ -1,0 +1,2060 @@
+
+html, body {
+    height: 100%;
+    min-height: 120vh;
+    width: 100%;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #000957, #000000); /* Dégradé de couleur */
+    transition: background 0.4s ease;
+}
+
+
+body a:active{
+background-color: #d7e1e100 ;
+
+}
+
+
+nav a.active {
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+
+.mobileHeader{display: none;}
+
+.underHeaderSea{
+    background-image: url("../img/headersea.png");
+    width:100%;
+    height: 300px;
+    object-fit: contain;
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-size: cover;
+
+    
+}
+
+.underHeadTxtSea{
+    width: 30%;
+    font-size: 1.5em;
+    padding: 5em 3em;
+    padding-top: 80px;
+    color:#ffe81e;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(207, 160, 3, 0.5);
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+
+
+}
+
+.underHeadTxtSea h2{
+font-size: 2em;
+color: #939074;
+text-shadow: 4px 4px 3px rgba(255, 191, 0, 0.788);
+background-repeat: no-repeat; /* Empêche la répétition de l'image */
+
+
+}
+
+
+.underHeader{
+    background-image: url("../img/headergokhanprod.png");
+    width:100%;
+    min-height: 500px;
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+background-size: cover;
+}
+.HeaderForest{
+    background-image: url("../img/headerforestadapt.png");
+    width:100%;
+    min-height: 450px;
+    background-size: cover; /* L'image recouvre tout l'élément */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+
+}
+.underHeader2{
+    background-image: url("../img/gokhanprodheader3.png");
+    width:100%;
+    min-height: 400px;
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-size: cover;
+}
+
+.underHeadTxt{
+    width: 30%;
+    font-size: 1.5em;
+    padding: 5em 3em;
+    padding-top: 300px;
+    color:#ffe81e;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(207, 160, 3, 0.5);
+    
+}
+
+.underHeadTxt a{
+  text-decoration: none;
+  color:#ffe81e!important;
+}
+
+.underHeadTxt2{
+    width: 30%;
+    font-size: 1.5em;
+    padding: 5em 3em;
+    padding-top: 150px;
+    color:#ffe81e;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(207, 160, 3, 0.5);
+}
+
+.underHeadTxt2 h2{
+font-size: 2em;
+color: #fff38b;
+text-shadow: 4px 4px 3px rgba(255, 191, 0, 0.788);
+}
+
+.fondH1 {
+    display: none;
+    left: 0;
+top :0;
+    position: fixed;
+    width: 100%;
+margin: 0;
+padding : 1.3em;
+background-image: url(../img/logoC2.png) ;
+background: cover ;
+background-color:red ;
+}
+
+main {
+    flex: 1;
+}
+
+.mainFontbr {
+
+    width: auto;
+    padding : 20em 20m 20em;
+    margin-bottom: 5em;
+    margin-top: 10em;
+    height: auto;
+    min-height: 20em;
+    background: cover ;
+   /* background-image: url(fond3.jpg); */
+   filter:blur(50%);
+    background: linear-gradient(to right, #7b6e40, #d55c00); /* Dégradé de couleur */
+    }
+.mainFont {
+    width: auto;
+    padding : 20em 20m 20em;
+    margin-bottom: 5em;
+    margin-top: 10em;
+    height: auto;
+    min-height: 20em;
+    background: cover ;
+   /* background-image: url(fond3.jpg); */
+   filter:blur(50%);
+       background-color:rgb(245, 253, 255) ;
+    }
+
+    .mainFontHome {
+        left: 0;
+        min-height: 80vh;    
+        margin-top: 10em ;
+        padding : 5em 5em 1em;
+        background: cover ;
+        background-color:rgb(245, 253, 255)  ;
+        background: cover ;
+        }
+
+        .mainFontBlue {
+            width: auto;
+         padding :5em 10em;
+
+           /* background-image: url(fond3.jpg); */
+           filter:blur(50%);
+           color: #ffffff !important ;
+            }
+
+        .mainFontDark {
+            width: auto;
+         padding :5em 10em;
+         background-color:black;
+
+           /* background-image: url(fond3.jpg); */
+           filter:blur(50%);
+           color: #ffffff !important ;
+            }
+
+            .mainFontDark p {
+                color: #ffffff;
+
+            }
+
+            .mainFontTechno {
+                display: flex;
+                width: 100%;
+                background-size: cover;
+
+               /* background-image: url(fond3.jpg); */
+               filter:blur(50%);
+               color: #f1ff2b ;
+               font-size: 1.2em;
+               margin-top: 1em;
+               padding-top: 3em;
+               min-height: 5em;
+                   background-color:rgb(12, 5, 43) ;
+                   background-image: url("../backgroundtechno2.webp");
+                   justify-content: left;
+                   text-justify: left;
+                }
+
+                .mainFontTechno h2{ 
+                font-size: 1.5em;
+                text-justify: left;
+                margin-left: 3em;
+                text-shadow: 3px 3px 3px #c30b0bbe;
+                }
+    
+
+            .mainFontIm {
+                left: 0;
+                margin-top: 0em ;
+                padding : 5em 5em 0em;
+                border-top: #d2be26 solid 0.2em;
+    
+                background-color:rgba(145, 238, 255, 0.333) ; 
+                background-size: auto;
+                background-repeat: repeat;
+                background-position: center;
+                background-image: url(../fontrepet.jpg);
+                }
+
+                
+    .fondURL1 {
+        position: absolute;
+        top:3em;
+        left: 80em;
+
+        }
+
+.fondBody1 {
+    background-image: url(../img/eagle.avif);
+    left: 0;
+    }
+
+h1,h2,h3, p,ul,ol
+{   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+H1{
+font-size: 3em;
+color: #ffbb00;
+text-shadow: 6px 6px 3px rgba(0,0,0,0.5);
+}
+
+H1 a {     
+        text-decoration: none;
+        color: #edc606;
+}
+
+h1 a :hover {     
+    color: #29e6c6;
+}
+
+H1 a:visited {
+    color: rgb(225, 203, 5);
+}
+
+
+h1:hover {
+    color: #CDF0EA;
+}
+
+
+a:active {
+    background-color: #ffc1c1;
+    color:  #007b71}
+
+a:visited {
+    color: rgb(0, 103, 134);
+}
+
+h2 {
+    text-align: center;
+ color: brown;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    background-image: url(../img/logoC2.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 6em;
+    
+}
+.footer a {
+text-decoration: none;
+color:#ffffff
+}
+
+.footer img{
+width: 30px;
+height:30px;
+}
+
+.imgText-container{
+width: 100%;
+display: flex ;
+display: row;
+background-image: url("../backgroundtechoblack.webp");
+ background-size: cover;
+  background-position: center; /* Centrer l'image */
+}
+.txtSide{
+    text-align: justify;
+width: 70%;
+padding-top: 5em;
+color:#ffe32a;
+text-shadow: 3px 3px 3px #c30b0bbe;
+}
+.txtSide h2{
+
+color:#ffe32a ;
+text-shadow: 3px 3px 3px #c30b0bbe;
+}
+
+.imgSide{
+width: 30%;
+}
+.imgSide img{
+    max-width: 300px;
+    object-fit: contain;
+    }
+
+.footer-content{
+    padding: 1em 5em;
+    position: relative;
+    }
+
+.footer-content2{
+    padding: 2em 5em;
+    position: relative;
+    }
+        
+
+    .video-container2 {
+        display: flex;
+        justify-content: left;  /* Espacement entre les éléments */
+        gap: 10px;                  /* Espacement entre les vidéos */
+        background-color: #000;
+        padding: 2em 0em 2em;
+    }
+
+    /*
+    .video-element2{
+ 
+        width: 40%;
+    }
+*/
+
+.game-menu {
+           position: relative;
+           top:5em;
+    left: 0;
+    min-height: 2em;
+
+    background: linear-gradient(to right, #000957, #000000); /* Dégradé de couleur */
+}
+
+
+    .video-container2-text{
+        width: 40%;
+        color: #ffffff;
+        padding: 3em 1em;
+        text-align: left;
+        font-size: 1.5em;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.521);
+
+    }
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;            /* Permet de passer à la ligne suivante si besoin */
+    justify-content: space-around;  /* Espacement entre les éléments */
+    gap: 10px;                  /* Espacement entre les vidéos */
+    text-align: center;         /* Centrer le texte */
+    width: 100%;     
+}
+
+.video-container iframe {
+    width: 45%;                 /* Chaque vidéo prend 45% de la largeur de son conteneur */
+    height: 315px;              /* Hauteur fixe pour les vidéos */
+    max-width: 560px;           /* Limiter la largeur maximale */
+    margin-bottom: 10px;        
+    cursor: pointer;
+
+}
+
+
+
+
+.video-container2 {
+    display: flex;
+    flex-wrap: wrap;            /* Permet de passer à la ligne suivante si besoin */
+    justify-content: center;  /* Espacement entre les éléments */
+    gap: 10px;                  /* Espacement entre les vidéos */
+    text-align: center;         /* Centrer le texte */
+    width: 100%;     
+}
+/* Menu test
+.navStyle {
+    width: 100%;
+    padding : 10px;
+    border: 2px #f7d117 solid;
+    background-image: url(eagle.avif);
+    background-color:red ;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3em;
+
+    }
+
+    .element{
+        display: flex;
+        padding : 10px;
+    }
+    .element:hover{
+        border: 2px #ddb70b solid;
+        border-radius: 10%;
+
+    }
+
+*/
+
+
+/* Menu */
+nav {font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    top: 0 ; /* Placer le menu juste après l'image */
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+
+    filter: blur(10%);
+   /* background-image: url(logoC2.png) ;*/
+        z-index: 1000;
+}
+
+nav a:active{
+    background-color: #d7e1e1a1 ;
+    }
+
+
+/* Afficher le menu si actif (après un clic) */
+.menu.show {
+    display: block;
+}
+.menu {
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-right: 1em;
+    justify-content: right;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding : 4px;
+}
+
+/* Effet de survol : changement de couleur du texte */
+.menu li a:hover {
+    color: #dfe0ff; /* Change la couleur du texte lorsque survolé */
+}
+
+
+.textmenugokhan {
+    display: inline-block; /* Permet d'appliquer le padding */
+position: fixed;
+left:70px;
+    top: 16px;
+    color:#e4d500;
+    font-size: 1.3em;
+}
+ .textmenugokhan:hover {
+    color: #CDF0EA;
+}
+
+.menuimg{
+position :fixed;
+top:5px;
+left:15px;
+width: 48px;
+height: 48px;
+}
+
+/*
+.underline-after-hover {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    cursor: pointer;
+}
+*/
+/* Pseudo-élément pour souligner le texte après hover */
+
+
+.textmenu {
+    display: inline-block; /* Permet d'appliquer le padding */
+    padding: 15px ;
+    top: 12px;
+    min-width: 4em;
+    gap:20px;
+    transition: background 0.5s ease, transform 1s ease, box-shadow 0.3s ease; /* Transition fluide */
+
+}
+.textmenu:hover {
+    transform: scale(1.1) ; /* Agrandissement et légère rotation */
+            box-shadow: 0 10px 20px rgba(9, 38, 115, 0.2); /* Ombre portée au survol */
+    background-color: #06565c5c;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 5px rgba(52, 152, 219, 0.7); /* Lueur bleue */
+
+}
+.menu a:hover {
+
+    border-radius: 15px;
+}
+
+.menuMobile {display: none;}
+/* Sous-menu */
+.submenu {
+    list-style: none;
+    position: absolute;
+    width: auto;
+    display: none;
+    padding: 0;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    border-radius: 20px;
+       min-width: 8em;
+   /* background-image: url(logoC2.png) ;*/
+    background-color: #000000ef;
+}
+
+
+        .submenu a {
+            display: block;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            border-radius: 25px;
+            transition: background 1s ease, box-shadow 0.5s ease, transform 0.5s ease, border 0.5s ease;
+
+        }
+
+        .submenu a:hover {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Ombre portée au survol */
+            background-color: #ffea00;
+            border-radius: 25px;
+            box-shadow: 0 0 10px 5px rgba(52, 152, 219, 0.7); /* Lueur bleue */
+
+        }
+
+        .submenu a:active{
+transform: scale(1.01);
+border: 2px solid #000a24;
+        }
+
+        .submenu a:hover {
+            transform : scale(1.01)
+        }
+        
+.menu li:hover .submenu {
+    display: block;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;   
+}
+
+menu li:active {
+    background-color:  #8cbcc9;
+}
+
+menu li a:active {
+
+    background-color:  #8cbcc9;
+
+}
+
+.submenu li a {
+    padding: 10px ;
+    border-radius: 25px;
+}
+
+.submenu li a:hover {
+    background-color: #b6dbdba5;
+    border-radius: 25px;
+}
+
+
+.menu-button {
+    border: none;
+    cursor: pointer;
+    top:0;left:1200px;
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2%;
+    border-radius: 15px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+.menu-button:focus {
+    outline: none;
+    background-color: #06f9f949;
+  }
+  
+  .menu-button:active {
+    background-color: #a1d7d38d; /* Même couleur au clic */
+    transform: scale(0.98); /* Effet au clic */
+  }
+.menu-button:hover {
+    background-color: #06f9f989;
+}
+
+    
+.submenu-sounds {
+    display: none;
+    list-style: none;
+    position: absolute;
+    width: auto;
+    display: none;
+    padding: 0;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+       min-width: 8em;
+   /* background-image: url(logoC2.png) ;*/
+    background-color: #000000ef;
+}
+
+.sounds iframe{
+padding-top: 3em;
+}
+
+.menu-sounds li:hover .submenu-sounds{
+    display: block;
+}
+
+/* Sous-menu general*/
+.submenu0 {
+box-shadow: 0 0 2px 2px rgba(7, 19, 107, 0.607);
+    list-style: none;
+    position: fixed;
+    width: 8%;
+    top:44px;
+    right:0;
+
+    cursor: pointer;
+    display: none;
+    justify-content: right;
+    padding: 0;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    background-color: black;
+}
+.submenutitle{
+color:#940000;
+font-weight: bold;
+}
+        .submenu0 a {
+            display: block;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            border-radius: 25px;
+            transition: background 1s ease, transform 0.5s ease, border 0.5s ease;
+        }
+
+        .submenu0 a:hover {
+            background-color: #06f9f989;
+            box-shadow: 0 0 10px 5px rgba(52, 152, 219, 0.7); /* Lueur bleue */
+
+            border-radius: 25px;
+        }
+
+        .submenu0 a:active{
+            transform: scale(1.01);
+            border: 2px solid #000a24;
+                    }
+            
+
+        
+.menu li .submenu0 {
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;   
+}
+
+.submenu0 li a {
+    padding: 10px ;
+    border-radius: 25px;
+}
+
+.submenu0 li a:hover {
+    background-color: #06f9f956;
+    border-radius: 25px;
+}
+
+.submenu0 li a:active {
+background-color: #acb3c471;
+
+}
+
+.menugen-button {
+    top:0;
+     border: none;
+    cursor: pointer;
+    background-color: #ebffff00;
+
+    padding-left: 1em;
+margin-left: 4em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2%;
+    border-radius: 15px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+.menugen-button:focus {
+    outline: none;
+    background-color: rgba(212, 255, 254, 0.295);
+
+  }
+  
+  .menugen-button:active {
+    background-color: #06f9f989;
+    transform: scale(0.98); /* Effet au clic */
+  }
+.menugen-button:hover {
+    background-color: #a9d3d342;
+}
+
+/*
+.emailbox {
+    background-color: #000;
+    position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 80%;
+left: 10%;
+cursor: pointer; 
+}   
+*/
+
+.emailbox {
+    background-color: #000;
+    position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 80%;
+left: 10%;
+cursor: pointer; /* Make the button look clickable */
+}   
+
+.emailbox textarea {
+min-height: 15em;
+width: 100%;
+}   
+.emailbox input {
+    width: 50%;
+    }   
+
+.mailButton {
+    margin-top: 2em;
+    background: linear-gradient(to left,#edd30d,#fdf3a8);
+width: 15%;
+color: #000;
+justify-content:center ;
+justify-items: center;
+position:  relative;
+left:45%;
+border-radius: 30px;  
+text-transform: uppercase;  /* Uppercase text for a modern feel */
+letter-spacing: 1.5px;  /* Add some spacing between letters */
+cursor: pointer;  
+transition: all 0.3s ease;  /* Smooth transition for hover effect */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+}
+
+.mailButton:hover {
+    box-shadow: 5px 6px 12px rgba(102, 97, 5, 0.2);  /* Enhance the shadow on hover */
+    background: linear-gradient(to left,#ff5500,#be9801)
+    }
+
+    .mailButton:hover {
+        background-color: #ffffff;
+        color: #000;
+        }
+
+
+.content {
+    padding: 0px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+/* Style du menu fixe quand on défile */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.imageDef {
+    position: fixed; /* Fixe l'image pour qu'elle ne change pas la taille du body */
+    top: 50%;
+    left: -150px; /* Commence à gauche, hors de la vue */
+    transform: translateY(-50%); /* Centré verticalement */
+    transition: left 1s ease-in-out; /* Déplacement avec animation */
+    overflow: hidden
+}
+
+.imgEagle2 {
+    position: absolute;
+    left: 0px; 
+    top: 100px;
+    width: 100px;
+}
+
+.imgEagle3 {
+    position: absolute;
+    left: 500px; 
+    top: 100px;
+    width: 100px;
+}
+
+.imgDrone {
+z-index: 3;
+    position: absolute;
+    left: 10x; 
+    top: 90px;
+    width: 100px;
+}
+.imgPerso {
+    position: absolute;
+    left: 700px; 
+    top: 200px;
+    width: 100px;
+    transition: transform 1s; /* Transition douce de la rotation */
+
+}
+.imgPersoDrone {
+    position: absolute;
+    left: 500px; 
+    top: 400px;
+    width: 80px;
+    transition: transform 1s; /* Transition douce de la rotation */
+
+}
+.imgPierre {
+    position: absolute;
+    left: 1500px; 
+    top: 400px;
+    width: 50px;
+}
+.imgPierre2 {
+    position: absolute;
+    left: 500px; 
+    top: 100px;
+    width: 50px;
+}
+.imgPierre3 {
+    position: absolute;
+    left: 500px; 
+    top: 100px;
+    width: 50px;
+}
+.imgPierre4 {
+    position: absolute;
+    left: 500px; 
+    top: 100px;
+    width: 50px;
+}
+.imgBot {
+
+    position: absolute;
+    left: 600px; 
+    top: 600px;
+    width: 100px;
+}
+.cloneImage {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+
+.imgDragon {
+    transform: scaleX(-1);  
+        position: absolute;
+        left: 1200px; 
+        top: 300px;
+        width: 100px;
+    }
+    
+.imgDragon2 {
+    transform: scaleX(-1);  
+        position: absolute;
+        left: 1350px; 
+        top: 200px;
+        width: 200px;
+    }
+
+    .imgBouleFeu {
+        display: none;
+            position: absolute;
+            transform: scale(-0.5);  /* Augmente l'image de 1.5 fois sa taille initiale */
+            left: 500px; 
+            top: 600px;
+        }
+
+
+        .zonescore{ position: absolute;
+        left:10px;
+        top:60px;}
+
+    .buttonstart{         
+        display: flex; /* Utilisation de Flexbox */
+        justify-content: center; /* Centre le texte horizontalement */
+        align-items: center; /* Centre le texte verticalement */
+    position: absolute;
+    left:800px;
+    top:60px;
+    color: #ffffff;
+    border-radius: 50%; 
+    background : linear-gradient(to right, #9ec2de,#051e43) ;
+    height: 1em;   
+    text-align: center; /* Centre le texte horizontalement */
+            vertical-align: middle; /* Assure que le texte est bien centré en hauteur */
+            line-height: normal; /* Permet de s'assurer que le texte n'est pas décalé */
+            border: 2px solid #333; /* Bordure pour le bouton */
+            cursor: pointer;
+}
+
+
+.buttonstart:hover{        background : linear-gradient(to right, #022776,#000000) ;
+}
+.buttonstart:active{         background : linear-gradient(to right, #226503,#9d9d18) ;
+}
+
+
+    .choixAide{ display: block;}
+    .selectionAide{ position: absolute;
+        left:1200px; top:60px;
+        display: flex;
+        display: row;
+/*padding: 1em;*/
+
+}
+/*
+.keyboard-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  #input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .keyboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  */
+
+  /*zone admin*/
+    .adminZone{
+        display: flex ;
+        flex-direction: column;
+  align-items: center;               
+  justify-content: center;  
+
+    }
+     .changeButton{         
+ 
+    color: #ffffff;
+    font-size: small;
+    text-align: center;
+      display: inline-flex;            
+  align-items: center;               
+  justify-content: center;         
+    border-radius: 50%; 
+    background : linear-gradient(to right, #9ec2de,#051e43) ;
+    height: 4em;   
+    text-align: center; 
+            vertical-align: middle; /* Assure que le texte est bien centré en hauteur */
+            line-height: normal; /* Permet de s'assurer que le texte n'est pas décalé */
+            border: 2px solid #333; /* Bordure pour le bouton */
+            cursor: pointer;
+            margin-left:4em;
+}
+
+
+
+  .video-container-slide {
+    position: relative;
+  width: 1000px;
+  height: 562px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000; /* Assurer que l'arrière-plan est sombre */
+padding-top: 5em;
+margin-top: 3em;
+}
+
+/* Wrapper pour l'iframe */
+.video-slide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.video-slide iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.getvideo-container{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;      /* Centrer verticalement */
+    padding: 1em;
+ 
+
+}
+
+.getvideo{
+    font-size: 1em;
+text-align: center;
+color: #ff0000;
+border: 3px solid #d6b409;
+border-radius: 50px;
+background: linear-gradient(45deg, #ffe7b3, #ffdb38);
+transition: background ease 0.3s;
+
+}
+/*
+.getvideo:active{
+    background: linear-gradient(to right, #48d784, #5de403);
+transition: background ease 0.3s;
+}
+*/
+.messageserver{
+position:absolute;
+top:100px;
+z-index: 1;
+color:#000;
+font-size: 5em;
+}
+
+
+.zonetest{
+    position: absolute;
+    top: 50em;
+    left: 10em;
+    z-index: 1;
+}
+/* Slide active */
+.video-slide.active {
+  display: block;
+}
+
+/* Contrôles (flèches et cercles) */
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 16px;
+  cursor: pointer; /* Permet de voir l'icône de souris sur les appareils de bureau */
+  font-size: 24px;
+  transition: background-color 0.3s, transform 0.3s;
+  border-radius: 5px;
+  touch-action: manipulation; /* Optimisation des interactions tactiles */
+}
+
+button:hover, button:focus {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.95); /* Réduit légèrement le bouton lors du clic/touché */
+}
+
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+.video-container-slide-game {
+    position: absolute;
+    left:0;
+    width: 100%;
+   padding-bottom: 56.25%;  /* Ratio 16:9 (9/16 * 100 = 56.25%) */
+    margin: 0 auto;
+    overflow: hidden;
+    background: #9cf0ff; /* Assurer que l'arrière-plan est sombre */
+    background-image: url("../img/fond3.jpg");
+
+}
+
+.video-slide-game {
+
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/fontrepet.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .video-slide-game iframe {
+    position: relative;
+z-index: 1;
+    width: 95%;
+    padding-bottom: 56.25%;  /* Ratio 16:9 (9/16 * 100 = 56.25%) */
+
+  }
+  .controls-game {
+    z-index: 2;  /* Le bouton sera au-dessus de l'iframe */
+    position:absolute;
+    top:100px;
+    left:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Slide active */
+  .video-slide-game.active {
+    display: block;
+  }
+
+  .imGame{
+z-index: 2;
+
+  }
+.txtGame{
+margin-left: 2em; 
+   position: relative;
+       left:2em;
+    padding-left: 2em;
+top:8em;
+}
+
+.image-container {
+    padding-top: 0em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;  /* Espacement entre les éléments */
+    text-align: center;         /* Centrer le texte */
+    width: 100%;     
+    height: auto;
+    background: linear-gradient(to right, #090d2d, #000000); /* Dégradé de couleur */
+}
+
+.image-container a:active{
+    background-color: #d7e1e100 ;
+    }
+
+.image-container2 {
+    padding-top: 0em;
+    display: flex;
+flex-direction:row;  
+  justify-content: space-around;  /* Espacement entre les éléments */
+    text-align: center;         /* Centrer le texte */
+    width: 100%;     
+    height: auto;
+    background-color:rgb(0, 0, 0) ;
+    
+}
+
+.image-container2 a:active{
+    background-color: #d7e1e1ad ;
+    }
+
+.image-container2:hover{
+    background-color:rgb(0, 0, 0) ;
+}
+
+.image-content2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5em;
+    text-align: center;         /* Centrer le texte */
+    }
+
+    .resize-image2{
+height: 200px;
+width: 200px;
+object-fit: contain;
+    }
+
+
+
+        .full-link {
+            display: flex;  /* Transforme le lien en bloc, donc il peut prendre toute la largeur */
+            flex-direction: column;
+            width: 300px;  /* Occupe toute la largeur de la div */
+            height: 300px;  /* Occupe toute la hauteur de la div */
+            text-align: center;  /* Centrer le texte du lien */
+            justify-content: center;
+            text-decoration: none;  /* Retirer le soulignement du lien */
+            transition: background 1s ease, box-shadow 0.4s ease, transform 1s ease;
+            border-radius: 5%;
+          }
+          .full-link:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 40px 10px rgba(52, 152, 219, 0.6); /* Lueur bleue */
+            background-color:rgb(1, 23, 40) ;
+        }
+          .full-link-defil {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            text-decoration: none;
+            top:-20px;
+        }
+        
+        /* Pseudo-élément pour souligner le texte après hover */
+        .full-link-defil::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 0;
+            height: 3px; /* Hauteur du soulignement */
+            background-color: #031147; /* Couleur du soulignement */
+            transition: width 1s ease; /* Transition fluide pour l'extension du soulignement */
+        }
+        
+        /* Lorsque le texte est survolé, le soulignement s'étend */
+        .full-link-defil:hover::after {
+            width: 100%; /* Étend le soulignement sur toute la largeur du texte */
+        }
+        
+
+    .image-content2 img{
+
+        max-width: 200px;/* L'image prend toute la largeur du conteneur */
+        max-height: 200px; /* L'image prend toute la hauteur du conteneur */
+        object-fit: contain; /* L'image s'ajuste pour être entièrement visible sans déformation */
+    }    
+
+.image-content{
+display: flex;
+flex-direction: column;
+padding-top: 5em;
+text-align: center;         /* Centrer le texte */
+
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+.image-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; /* Le fond commence à gauche en dehors de l'élément */
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #050d54, #000000); /* Dégradé de couleur */
+    transition: left 1s ease; /* Transition du fond de gauche à droite */
+}
+
+/* Effet de fond lors du survol */
+.image-content:hover::before {
+    left: 0; /* Remplissage du fond de gauche à droite */
+}
+
+.image-content:hover {
+    color: #fff; /* Rendre le texte clair lors du survol */
+}
+
+.image-content img{
+width: 450px;
+height: 300px;
+object-fit: cover; 
+z-index: 10;
+}
+
+.image-content a{
+text-decoration: none;
+color:#ffffff;
+z-index: 10;
+height: 100%;
+}
+.table-container /* Toutes les cellules des tableaux... */
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table2 /* Toutes les cellules des tableaux... */
+{ border-collapse: collapse;
+    background: linear-gradient(to bottom,rgba(255, 38, 0, 0.742),rgba(72, 182, 186, 0.783)); /* Dégradé de couleur */
+
+}
+table{            
+    background : linear-gradient(to top,rgb(241, 255, 255),rgb(192, 199, 233)); 
+    margin-bottom:2em;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+td /* Toutes les cellules des tableaux... */
+{ color:white;
+    border: 2px solid black; 
+    padding:5px;
+    text-align: center;
+}
+th /* Toutes les cellules des tableaux... */
+{ color:rgb(255, 200, 0);
+    border: 2px solid black; 
+    padding:5px;
+    text-align: center;
+
+}
+
+
+.info-container{
+    position: relative;
+    background : linear-gradient(to top,rgb(255, 255, 255),rgb(180, 190, 194)); 
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top:4em;
+    margin-bottom:4em;
+
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+.inputUrl{
+    width: 40em;
+}
+.inputUrlBot{
+    width: 40em;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    html, body {height: 100%;width: 100%; }
+
+    .fondH1 {display: none;}
+ 
+    .underHeader{
+        display: none;
+        max-width: 100%;
+        max-height: 100px;
+    }
+    
+    .underHeader2{
+        display: none;
+
+       max-height: 100px ;
+    }
+
+    .underHeaderSea{
+        display: none;
+        padding: 0;
+        background-image: url("../img/headersea.png");
+        width:100%;
+        max-height: 100px;
+        object-fit: contain;
+    }
+
+
+
+    .underHeadTxtSea{
+        width: 100%;
+        font-size: 1em;
+     
+        padding-top: 1em;
+        padding-bottom: 2em;
+        margin-bottom: 1em;
+
+    
+    }
+    
+    .underHeadTxtSea h2{
+    font-size: 1em;
+    }
+
+.underHeadTxt{
+    width: 100%;
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+
+.underHeadTxt2{
+    width: 100%;
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+.mobileHeader{display: flex;
+width: 100%;
+}
+
+    nav {
+        overflow: hidden;
+        position: fixed;
+        top: 0 ; /* Placer le menu tout en haut */
+        left: 0;
+        height: 60px;
+        width: 100%; /* Peut être remplacé par une largeur fixe si nécessaire */
+        max-width: 100%; /* S'assure que la largeur ne dépasse pas celle de l'écran */
+        padding: 0 0 0;
+        background-image: url("../img/logoC2.png");
+        /*
+        width: 100%;
+        background-color: #10bcecf7;
+        z-index: 1000;
+        */
+    }
+    
+    .submenu a {
+        transition: background 0.3s ease, box-shadow 0.5s ease;
+    }
+
+
+    .menu a { 
+        white-space: nowrap; /* Empêche le retour à la ligne */
+
+    }
+    .menu {left:0;
+        display: none ;
+  
+    }
+    .menuMobile {
+        width: 100%; /* Peut être remplacé par une largeur fixe si nécessaire */
+        max-width :100%; /* S'assure que la largeur ne dépasse pas celle de l'écran */
+        left: 0;
+        top:44px;
+        margin-bottom: 2em;
+        list-style: none;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        white-space: nowrap;
+        overflow: hidden;
+        justify-content:space-around;
+        padding: 0 0em 0em;
+        /*margin-bottom: 2em;*/
+        min-height: 3em;
+        max-height: 4em;
+       /* border: 4px solid #010b2b81; */
+        color: #ffffff;
+        background : linear-gradient(to right, #0c1136, #000000);
+                /* background-image: url("../logoC2.png");*/
+                z-index: 1;
+                overflow-x:auto;
+    }
+
+    .menuMobile a{
+        text-decoration: none;
+        color: #ffffff;
+        transition: background 0.5s ease; /* Transition fluide */
+
+
+    }
+    .menuMobile li a:hover{
+     background-color: #00195400;
+
+    }
+    /*
+    .menuMobile a:hover{
+   background-color: #19556871;
+   border-radius: 10%;
+   transform: scale(95%);
+    }
+   */
+   
+    .menuMobile li{
+        height: 3em;
+        transition: transform 0.5s ease, box-shadow 0.5s ease;
+         }
+
+    .menuMobile li:active{
+        background-color: #19556871;
+        border-radius: 15%;
+        transform: scale(95%);
+         }
+        */
+
+        .textmenu:hover {
+     
+            background-color: #00195400;
+            border-radius: 15px;
+        
+        }
+
+        .textmenu:active {
+     
+            background-color: #00195400;
+       
+        
+        }
+    
+    
+    .menu li {
+        position: relative;
+        white-space: nowrap; /* Empêche le retour à la ligne */
+       
+    }
+    
+    .menu a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        display: FLEX;
+        padding : 4px;
+    }
+    
+    .textmenugokhan {
+        display: inline-block; /* Permet d'appliquer le padding */
+        left : 60px;
+    }
+
+    .menugen-button {
+    position:fixed;
+    right:0em;
+
+       color: rgb(255, 255, 255);
+        text-shadow: 2%;
+        border-radius: 15px;
+        font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1em;
+    }
+    .menuimg{
+    position :fixed;
+    top:5px;
+    left:5px;
+    padding-right: 5px;
+    }
+    
+    .textmenu {
+        display: inline-block; /* Permet d'appliquer le padding */
+        padding: 15px ;
+        top: 12px;
+        min-width: 4em;
+        gap:20px;
+        white-space: nowrap; /* Empêche le retour à la ligne */
+       
+    }
+
+
+    .submenu0 a {
+        transition: background 0.3s ease;
+    }
+
+
+
+    .submenu0 {
+        background-image: url(../img/logoC2.png) ;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch; /* Défilement fluide sur iOS et Android */
+max-height:90%;
+        list-style: none;
+        position: fixed;
+        justify-content: left;
+        width: 40%;
+        top:44px;
+        left:70%;
+        display: none;
+        padding-left: 5px;
+    }/*
+    .submenu0 li {
+
+        list-style: none;
+        position: relative;
+        justify-content: left;
+        width: 100px;
+        top:20px;
+        left:80px;
+        display: none;
+        padding-left: 5px;
+      
+    }*/
+    .mainFont {
+        margin-top: 1em ;
+        padding : 3em 0em 0em; /* haut horizontal bas */
+
+        }
+        .mainFontDark {
+            
+            left: 0;
+            margin-top:0em ;
+            padding : 1em 0em 0em; /* haut horizontal bas */
+            max-width: 100%;
+            }
+            .mainFontBlue{
+            
+                left: 0;
+                margin-top:0em ;
+                padding : 1em 0em 0em; /* haut horizontal bas */
+                max-width: 100%;
+                }
+        .mainFontHome {
+            left: 0;
+            height: 100%;
+            min-height: 10vh;
+            margin-top:0em ;
+            padding : 3em 0em 0em; /* haut horizontal bas */
+          
+
+            }
+
+            .mainFontIm {
+                left: 0;
+                margin-top: 3em ;
+                padding : 1em 0em 0em; /* haut horizontal bas */
+    display:none;
+                
+                }
+
+        
+                    
+                .mainFontTechno {
+                                      /* background-image: url(fond3.jpg); */
+                   padding-top: 0em;
+                   filter:blur(50%);
+                   color: #f1ff2b ;
+                   font-size: 1.2em;
+                   margin-top: 0em;
+                   min-height: 5em;
+                       background-image: url("../img/backgroundtechno.webp");
+
+                    max-width:100% ;
+                    }
+    
+    .contenu {
+        overflow-x: auto; /* Ajoute un défilement horizontal si le contenu dépasse */
+        overflow-y: auto;
+        white-space: nowrap; /* Empêche le retour à la ligne */
+    }
+
+
+p {
+    text-align: justify;
+    font-size: 1em;
+    padding:  1em 1em 1em; ;
+    overflow: scroll; 
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.footer a {
+    text-decoration: none;
+    color:#ffffff
+    }
+    
+  
+    
+    .footer-content{
+        padding: 10px 1em;
+       min-width: 10em; 
+            position: relative;
+        }
+    
+    .footer-content2{
+        padding: 20px 1em;
+        
+            position: relative;
+        }
+            
+        .video-container2 {
+            background-color: #000;
+
+            padding: 0em 0em 0em;
+        }
+
+.imgText-container{
+    width: 100%;
+    display: flex ;
+    padding-top: 1em;
+   flex-direction: column;
+   justify-content: center;
+position: relative;
+z-index: 0;
+max-height:100px;
+background-image: url("../img/backgroundtechno.webp");
+    }
+
+ 
+    .txtSide{
+        padding-top: 2em;
+        margin-top: 2em;
+    
+            text-shadow: 3px 3px 3px #c30b0bbe;
+            
+        text-align: justify;
+    width: 100%;
+    }
+
+    .txtSide h2{
+        color: brown;
+        text-shadow: 3px 3px 3px #c30b0bbe;
+        }
+    
+    .imgSide{
+        display: none;
+    width:80%;
+    margin-top: 1em;
+justify-content: center;
+padding-left: 100px;
+    }
+    .imgSide img{
+        max-width: 200px;
+        max-height: 200px;
+        }
+
+       
+    .imageDef {
+        display: none;
+        position: absolute;
+        top: 20%;
+        left: -180px; /* Commence à gauche, hors de la vue */
+        transform: translateY(-20%); /* Centré verticalement */
+        overflow: hidden
+    
+    }
+
+    .imgPerso {
+
+        position: absolute;
+        left: 0px; 
+        top: 70px;
+        width: 100px;
+    }
+
+    
+.imgEagle2 {
+    position: absolute;
+    left: 0px; 
+    top: 100px;
+    width: 100px;
+}
+
+.imgEagle3 {
+    display: none;
+    position: absolute;
+    left: 500px; 
+    top: 100px;
+    width: 100px;
+}
+
+
+.imgPersoDrone {
+    position: absolute;
+    left: 100px; 
+    top: 400px;
+    width: 100px;
+}
+.imgDragon {
+display: none;
+    position: absolute;
+    left: 600px; 
+    top: 600px;
+    width: 100px;
+}
+.imgBouleFeu {
+    display: none;
+        position: absolute;
+        left: 500px; 
+        top: 600px;
+        width: 100px;
+    }
+    
+
+.video-container2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center; 
+    gap: 10px;    
+    padding: 1 0 0;              
+    margin-top: 2em;
+    margin-bottom: 1em;
+    max-width: 100%;
+}
+
+.video-element2{
+
+    max-width: 100%;
+}
+.video-element2 iframe{
+
+    max-width: 90%;
+}
+
+.video-container2-text{
+    color: #ffffff;
+    padding: 0em 0em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: justify;
+    font-size: 1em;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.521);
+width: auto;
+}
+
+.resize-image2{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+        }
+
+.video-container-slide {
+    margin-top: 5em;
+    padding-top: 2em;
+    position: relative;
+  width: 90%;
+ /*--padding-bottom: 56.25%; *//* Ratio 16:9 */
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #000; /* Assurer que l'arrière-plan est sombre */
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: column;            /* Permet de passer à la ligne suivante si besoin */
+    justify-content: center;  /* Espacement entre les éléments */
+    gap: 10px;                  /* Espacement entre les vidéos */
+    text-align: center;         /* Centrer le texte */
+    width: 100%;     
+    max-height: 320px; 
+    height: auto;
+}
+
+.video-container iframe {
+    width: 80%;                 /* Chaque vidéo prend 45% de la largeur de son conteneur */
+    height: 315px;              /* Hauteur fixe pour les vidéos */
+    max-width: 560px;           /* Limiter la largeur maximale */
+    margin-bottom: 10px;        
+}
+
+  
+  
+  /* Wrapper pour l'iframe pour lui permettre de rester responsive */
+  .video-container-slide {
+    padding-bottom: 56.25%;
+    width: 90%; 
+  }
+  .video-slide {
+
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+
+  .video-slide iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 12px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .dots {
+    margin: 0 8px;
+  }
+
+
+  
+  .image-content{
+
+justify-content: center;
+text-align: center;         /* Centrer le texte */
+
+  }
+
+  .image-content img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover; 
+    }
+    
+    .image-content p{
+
+        justify-content: center;
+        text-align: center;         /* Centrer le texte */
+        
+          }
+
+          .image-content :active{
+background-color: #fafafa00;
+              }
+
+              .image-content a :active{
+                background-color: #fafafa00;
+                              }
+     
+
+          .image-content2 img{
+
+            max-width: 100px;/* L'image prend toute la largeur du conteneur */
+            max-height: 100px; /* L'image prend toute la hauteur du conteneur */
+            object-fit: contain; /* L'image s'ajuste pour être entièrement visible sans déformation */
+        }    
+
+        .mobileOff{
+            display: none;
+        }
+
+        
+.mailButton {
+position:  absolute;
+left:45%;
+top : 15em;
+width:fit-content
+}
+
+.getvideo{
+    font-size: 0.6em;
+    align-items: center;
+}
+
+.table-container{
+    align-items: center;
+
+}
+
+td /* Toutes les cellules des tableaux... */
+{ 
+    border: 2px solid black; 
+  text-align: left;
+}
+
+
+th /* Toutes les cellules des tableaux... */
+{ 
+    border: 2px solid black; 
+    text-align: left;
+
+
+}
+table{
+    border: 1px solid #ccc; /* Add border for the table */
+}
+
+
+.info-container{
+   
+    padding: 20px;
+
+    margin-top:4em;
+    margin-left: 0em;
+    margin-right: 0em;
+
+}
+
+
+
+.inputUrl{
+    width: 10em;
+}
+.inputUrlBot{
+    width: 10em;
+}
+
+
+
+}

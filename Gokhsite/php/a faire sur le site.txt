@@ -1,0 +1,28 @@
+a faire sur le site : 
+
+php:
+messagerie a ameliorer
+renvoyer mdp par mail 
+choix nav fun
+
+allocation dynamique des slide video => finir sur toutes les pages
+rajouter plusieurs slide videos pour utilisateur avec un titre
+rajout en mode admin des videos sur le site => finir toute les pages
+
+
+jeu :
+- boule de feu téléguidée
+- attaque charge aigle : acceleration , absence collision avec perso , delai avant deuxieme charge
+- rajouter des niveaux : lvl1 traversée aigle,2 survivre avec drone,3 level contre dragons
+- rajouter choix persos//afficher pierre avec checkbox sur eaglegame
+- rajouter touche pr mobile et adapter page
+-afficher/desactiver texte
+
+
+
+
+
+
+
+
+

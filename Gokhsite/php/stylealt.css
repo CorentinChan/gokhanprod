@@ -1,0 +1,912 @@
+
+html, body {
+    height: 100%;
+    min-height: 100vh;
+font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.underHeaderSea{
+    background-image: url("../img/headersea.png");
+    width:100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.underHeadTxtSea{
+    width: 30%;
+    font-size: 1.5em;
+    padding: 5em 3em;
+    padding-top: 80px;
+    color:#ffe81e;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(207, 160, 3, 0.5);
+
+}
+
+.underHeadTxtSea h2{
+font-size: 2em;
+color: #939074;
+text-shadow: 4px 4px 3px rgba(255, 191, 0, 0.788);
+
+}
+
+
+
+.underHeader{
+    background-image: url("../img/headergokhanprod.png");
+    width:100%;
+    min-height: 500px;
+
+}
+.underHeader2{
+    background-image: url("../img/gokhanprodheader3.png");
+    width:100%;
+    min-height: 400px;
+
+}
+
+
+.underHeadTxt{
+    width: 30%;
+    font-size: 1.5em;
+    padding: 5em 3em;
+    padding-top: 300px;
+    color:#ffe81e;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(207, 160, 3, 0.5);
+
+
+}
+
+
+.underHeadTxt a{
+  text-decoration: none;
+  color:#ffe81e!important;
+}
+
+
+.underHeadTxt2{
+    width: 30%;
+    font-size: 1.5em;
+    padding: 5em 3em;
+    padding-top: 150px;
+    color:#ffe81e;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(207, 160, 3, 0.5);
+
+}
+
+.underHeadTxt2 h2{
+font-size: 2em;
+color: #fff38b;
+text-shadow: 4px 4px 3px rgba(255, 191, 0, 0.788);
+
+}
+
+
+.imgText-container{
+    width: 100%;
+    display: flex ;
+    display: row;
+    background-image: url("../img/backgroundtechoblack.webp");
+    }
+    .txtSide{
+        text-align: justify;
+    width: 70%;
+    padding-top: 5em;
+    color:#ffe32a;
+    text-shadow: 3px 3px 3px #c30b0bbe;
+    }
+    .txtSide h2{
+    
+    color:#ffe32a ;
+    text-shadow: 3px 3px 3px #c30b0bbe;
+    }
+    
+    .imgSide{
+    width: 30%;
+    
+    }
+    .imgSide img{
+        max-width: 300px;
+        max-height: 300px;
+        }
+
+.fondH1 {
+    left: 0;
+top :0;
+    position: fixed;
+    width: 100%;
+margin: 0;
+padding : 1.3em;
+background-image: url(../img/logoC2.png) ;
+background: cover ;
+background-color:red ;
+}
+main {
+    flex: 1;
+}
+
+.mainFont {
+    border-radius: 10%;
+    width: auto;
+    padding : 20em 20m 20em;
+    height: auto;
+    min-height: 20em;
+    background: cover ;
+   /* background-image: url(fond3.jpg); */
+    background-color:rgba(205, 230, 234, 0.466) ;
+    }
+    .mainFontHome {
+        left: 0;
+        min-height: 80vh;    
+        margin-top: 10em ;
+        padding : 5em 5em 1em;
+        background: cover ;
+        background-image: url(../img/fond3.jpg); 
+        background-color:rgba(145, 238, 255, 0.333) ;
+        background: cover ;
+        }
+        .mainFontIm {
+            left: 0;
+            margin-top: 0em ;
+            padding : 5em 5em 0em;
+border-top: #d2be26 solid 0.2em;
+
+            background-color:rgba(145, 238, 255, 0.333) ; 
+            background-image: url(../img/fon2.png);
+            background-size: auto;
+            background-repeat: repeat;
+            background-position: center;
+            
+            }
+
+
+    .fondURL1 {
+        position: absolute;
+        top:3em;
+        left: 80em;
+
+        }
+
+.fondBody1 {
+    background-image: url(../img/eagle.avif);
+    left: 0;
+
+    }
+
+h1,h2,h3, p,ul,ol
+{   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+H1{
+font-size: 3em;
+color: #ffbb00;
+
+    text-shadow: 6px 6px 3px rgba(0,0,0,0.5);
+   
+}
+
+H1 a {     
+        text-decoration: none;
+      
+        color: #edc606;
+       
+}
+
+h1 a :hover {     
+   
+    color: #29e6c6;
+
+}
+H1 a:visited {
+    color: rgb(225, 203, 5);
+}
+
+
+.MotImportant{
+    color :#1edbc5;
+    font-size:1.5em;
+    font-style: normal;
+    text-decoration: underline red;
+    font-weight: bold
+  
+}
+
+
+.mon-element:hover {
+    background-color: #BEAEE2;
+    color: white;
+    border: 10px #ffbb00 solid;
+}
+
+h1:hover {
+    color: #CDF0EA;
+}
+
+
+a:active {
+    background-color: #ffc1c1;
+    color:  #007b71}
+
+a:visited {
+    color: rgb(0, 103, 134);
+}
+
+h2 {
+    text-align: center;
+ color: brown;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    min-height: 5em;
+    padding: 0 1 0px;
+    background-image: url(../img/eaglesunset.avif);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 6em;
+    
+    
+}
+.video-container {
+    display: flex;
+    flex-wrap: wrap;            /* Permet de passer à la ligne suivante si besoin */
+    justify-content: stretch;  /* Espacement entre les éléments */
+    gap: 10px;                  /* Espacement entre les vidéos */
+    text-align: center;         /* Centrer le texte */
+    width: 100%;     
+}
+
+.video-container iframe {
+    width: 45%;                 /* Chaque vidéo prend 45% de la largeur de son conteneur */
+    height: 315px;              /* Hauteur fixe pour les vidéos */
+    max-width: 560px;           /* Limiter la largeur maximale */
+    margin-bottom: 10px;        
+}
+.video-container2 {
+    display: flex;
+    flex-wrap: wrap;            /* Permet de passer à la ligne suivante si besoin */
+    justify-content: center;  /* Espacement entre les éléments */
+    gap: 10px;                  /* Espacement entre les vidéos */
+    text-align: center;         /* Centrer le texte */
+    width: 100%;     
+}
+/* Menu test
+.navStyle {
+    width: 100%;
+    padding : 10px;
+    border: 2px #f7d117 solid;
+    background-image: url(eagle.avif);
+    background-color:red ;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3em;
+
+    }
+
+    .element{
+        display: flex;
+        padding : 10px;
+    }
+    .element:hover{
+        border: 2px #ddb70b solid;
+        border-radius: 10%;
+
+    }
+
+*/
+
+
+/* Menu */
+nav {font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    position: fixed;
+    top: 10em ; /* Placer le menu juste après l'image */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-image: url(../img/fond3.jpg); 
+}
+nav .fontVar
+{
+    background-image: url(../img/eagle.avif); 
+}
+
+
+.menu-container {
+    display: flex;
+    gap: 20px;
+    
+}
+.menu-container:hover .menu {
+    display: flex;
+}
+
+/* Afficher le menu si actif (après un clic) */
+.menu.show {
+    display: block;
+}
+.menu {
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    color: rgb(159, 2, 2);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color:#b0dede86;
+    border-radius: 15px;
+}
+
+
+/* Sous-menu */
+.submenu {
+    list-style: none;
+    position: absolute;
+    width: auto;
+    display: none;
+    padding: 0;
+    background-image: url(../img/fond3.jpg); 
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    border-radius: 20px;
+    min-width: 8em;
+}
+
+        .submenu a {
+            display: block;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            border-radius: 25px;
+        }
+
+        .submenu a:hover {
+            background-color: #ffea00;
+            border-radius: 25px;
+        }
+
+        
+.menu li:hover .submenu {
+    display: block;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;   
+}
+
+.submenu li a {
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.submenu li a:hover {
+    background-color: #b6dbdba5;
+    border-radius: 25px;
+}
+
+
+.menu-button {
+    border: none;
+    cursor: pointer;
+    background-color: #40d0f800;
+    margin-top: 3px;
+    color: rgb(159, 2, 2);
+       padding: 11px 20px;
+    border-radius: 15px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    min-width: 8em;
+}
+.menu-button:focus {
+    outline: none;
+    background-color: #a6c1cc00; /* Couleur maintenue après le clic */
+  }
+  
+  .menu-button:active {
+    background-color: #bbd1d300; /* Même couleur au clic */
+    transform: scale(0.98); /* Effet au clic */
+  }
+.menu-button:hover {
+    background-color: #b6dbdba5;
+}
+
+        /* Afficher le menu au hover SEULEMENT si pas cliqué */
+        .menu-container:hover .menu {
+            display: block;
+        }
+
+        /* Afficher le menu si actif (après un clic) */
+        .menu.show {
+            display: block;
+        }
+
+.content {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+/* Style du menu fixe quand on défile */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.imageDef {
+    position: fixed; /* Fixe l'image pour qu'elle ne change pas la taille du body */
+    top: 50%;
+    left: -150px; /* Commence à gauche, hors de la vue */
+    transform: translateY(-50%); /* Centré verticalement */
+    transition: left 1s ease-in-out; /* Déplacement avec animation */
+    overflow: hidden
+}
+
+.imgEagle2 {
+    position: absolute;
+    left: 0px; 
+    top: 100px;
+    width: 100px;
+}
+
+.imgEagle3 {
+    position: absolute;
+    left: 500px; 
+    top: 100px;
+    width: 100px;
+}
+
+.imgDrone {
+
+    position: absolute;
+    left: 10x; 
+    top: 90px;
+    width: 100px;
+}
+.imgPerso {
+    position: absolute;
+    left: 700px; 
+    top: 200px;
+    width: 100px;
+    transition: transform 1s; /* Transition douce de la rotation */
+
+}
+.imgPersoDrone {
+    position: absolute;
+    left: 500px; 
+    top: 400px;
+    width: 80px;
+    transition: transform 1s; /* Transition douce de la rotation */
+
+}
+.imgPierre {
+    position: absolute;
+    left: 1500px; 
+    top: 400px;
+    width: 50px;
+}
+.imgPierre2 {
+    position: absolute;
+    left: 500px; 
+    top: 100px;
+    width: 50px;
+}
+.imgPierre3 {
+    position: absolute;
+    left: 500px; 
+    top: 100px;
+    width: 50px;
+}
+.imgPierre4 {
+    position: absolute;
+    left: 500px; 
+    top: 100px;
+    width: 50px;
+}
+.imgBot {
+
+    position: absolute;
+    left: 600px; 
+    top: 600px;
+    width: 100px;
+}
+/*
+.keyboard-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  #input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .keyboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  */
+
+
+@media screen and (max-width: 768px){
+    .fondH1 {display: none;}
+    .menu { overflow:scroll;
+        border-bottom: 2px solid #00000094;
+       
+    }
+    .menu a { overflow:scroll;
+  
+padding-top: 1.5em;
+    }
+
+    .underHeader{
+        display: none;
+        max-width: 100%;
+        max-height: 100px;
+    }
+    
+    .underHeader2{
+        display: none;
+
+       max-height: 100px ;
+    }
+    .underHeaderSea{
+        display: none;
+
+        background-image: url("../img/headersea.png");
+        width:100%;
+        max-height: 100px;
+        object-fit: contain;
+    }
+    
+
+    .underHeadTxtSea{
+        width: 100%;
+        font-size: 1em;
+        padding: 1em 1em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        margin-bottom: 1em;
+
+    
+    }
+    
+    .underHeadTxtSea h2{
+    font-size: 1em;
+    }
+
+.underHeadTxt{
+    width: 100%;
+    font-size: 1em;
+    padding: 1em 1em;
+    padding-top: 1em;
+}
+
+.underHeadTxt2{
+    width: 100%;
+    font-size: 1em;
+    padding: 1em 1em;
+    padding-top: 1em;
+}
+
+.mobileHeader{display: flex;
+width: 100%;
+}
+
+    .mainFont {
+        margin-top: 10em ;
+        padding : 3em 1em 0em; /* haut horizontal bas */
+
+        background: cover ;
+        background-color:rgba(145, 238, 255, 0.333) ;
+        }
+        .mainFontHome {
+            left: 0;
+            height: 100%;
+            min-height: 10vh;
+            margin-top:0em ;
+            padding : 3em 1em 0em; /* haut horizontal bas */
+            background: cover ;
+            background-image: url(../img/fond3.jpg); 
+            background-color:rgba(145, 238, 255, 0.333) ;
+            background-repeat: repeat;
+
+            }
+
+            .mainFontIm {
+                left: 0;
+                margin-top: 3em ;
+                padding : 1em 1em 0em; /* haut horizontal bas */
+    
+                background-color:rgba(145, 238, 255, 0.333) ; 
+                background-image: url(../img/fontrepet.webp);
+                background-size: auto;
+                background-repeat: repeat;
+                background-position: center;
+                
+                }
+                             .mainFontIm::before {    background-color: rgba(0, 0, 0, 0.5); /* Couche sombre semi-transparente */  }
+
+    
+    .contenu {
+        overflow-x: auto; /* Ajoute un défilement horizontal si le contenu dépasse */
+        overflow-y: auto;
+        white-space: nowrap; /* Empêche le retour à la ligne */
+    }
+    nav {
+        position: fixed;
+        top: 0 ; /* Placer le menu tout en haut */
+        left: 0;
+        width: 100%;
+        background-color: #10bcecf7;
+        z-index: 1000;
+        background-image: url(../img/fond3.jpg); 
+
+    }
+    
+p {
+    text-align: justify;
+    font-size: 1em;
+    padding:  1em 1em 1em; ;
+    overflow: scroll; 
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding:  2em 1em 0em; ;
+    background-image: url(../img/eaglesunset.avif);
+    min-height: 5em;
+}
+
+
+            .menu-button {
+                width: 100%; /* Sur mobile, les boutons prennent toute la largeur disponible */
+                text-align: left; /* Alignement à gauche pour plus de lisibilité */
+                min-width: 6em;
+               
+
+    }
+    .submenu {
+        list-style: none;
+        position: relative;
+        width: auto;
+        display: none;
+        padding: 0;
+        background-image: none; 
+        font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1em;
+    min-width: 6em;
+        
+    }
+
+    .submenu.active {
+        display: flex; /* Les sous-menus s'affichent en ligne */
+        flex-wrap: wrap;
+    }
+
+    .menu-button:focus {
+        
+        background-color: #15617e6c; /* Couleur maintenue après le clic */
+      }
+      
+      .menu-button:active {
+        background-color: #2c8c9500; /* Même couleur au clic */
+        transform: scale(0.96); /* Effet au clic */
+      }
+
+    .imageDef {
+        position: absolute;
+        top: 20%;
+        left: -180px; /* Commence à gauche, hors de la vue */
+        transform: translateY(-20%); /* Centré verticalement */
+        overflow: hidden
+    
+    }
+
+    .imgPerso {
+
+        position: absolute;
+        left: 0px; 
+        top: 70px;
+        width: 100px;
+    }
+
+                    
+                .mainFontTechno {
+                   
+               padding-top: 3em;
+                   /* background-image: url(fond3.jpg); */
+                   filter:blur(50%);
+                   color: #f1ff2b ;
+                   font-size: 1.2em;
+                   margin-top: 1em;
+                   min-height: 5em;
+                       background-image: url("../backgroundtechno.webp");
+
+                    max-width:100% ;
+                    }
+    
+    .contenu {
+        overflow-x: auto; /* Ajoute un défilement horizontal si le contenu dépasse */
+        overflow-y: auto;
+        white-space: nowrap; /* Empêche le retour à la ligne */
+    }
+
+
+p {
+    text-align: justify;
+    font-size: 1em;
+    padding:  1em 1em 1em; ;
+    overflow: scroll; 
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.footer a {
+    text-decoration: none;
+    color:#ffffff
+    }
+    
+  
+    
+    .footer-content{
+        padding: 10px 1em;
+       min-width: 10em; 
+            position: relative;
+        }
+    
+    .footer-content2{
+        padding: 20px 1em;
+        
+            position: relative;
+        }
+
+        .footer img{
+            width: 30px;
+            height:30px;
+            }
+            
+    
+.imgText-container{
+    width: 100%;
+    display: flex ;
+   flex-direction: column;
+   justify-content: center;
+position: relative;
+max-height:400px;
+background-image: url("../backgroundtechno.webp");
+    }
+
+ 
+    .txtSide{
+        padding-top: 1em;
+        margin-top: 1em;
+
+        text-align: justify;
+    width: 100%;
+    }
+    
+    .imgSide{
+        display: none;
+    width:80%;
+    margin-top: 1em;
+justify-content: center;
+padding-left: 100px;
+    }
+    .imgSide img{
+        max-width: 200px;
+        max-height: 200px;
+        }
+
+       
+    .imageDef {
+        position: absolute;
+        top: 20%;
+        left: -180px; /* Commence à gauche, hors de la vue */
+        transform: translateY(-20%); /* Centré verticalement */
+        overflow: hidden
+    
+    }
+
+    .imgPerso {
+
+        position: absolute;
+        left: 0px; 
+        top: 70px;
+        width: 100px;
+    }
+
+    
+.imgEagle2 {
+    position: absolute;
+    left: 0px; 
+    top: 100px;
+    width: 100px;
+}
+
+.imgEagle3 {
+    display: none;
+    position: absolute;
+    left: 500px; 
+    top: 100px;
+    width: 100px;
+}
+
+
+.imgPersoDrone {
+    position: absolute;
+    left: 100px; 
+    top: 400px;
+    width: 100px;
+}
+.imgDragon {
+display: none;
+    position: absolute;
+    left: 600px; 
+    top: 600px;
+    width: 100px;
+}
+.imgBouleFeu {
+    display: none;
+        position: absolute;
+        left: 500px; 
+        top: 600px;
+        width: 100px;
+    }
+    
+
+}
